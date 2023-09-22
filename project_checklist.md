@@ -32,6 +32,7 @@ All data entered must be validated
 
 # Interface layer (GUI) instructions  
 One GUI for each of the two DAOs made  
+GUI type: tkinter  
 
 # Testing specific instructions
 Use and expand the validation methods given in validation.py  
@@ -41,3 +42,5 @@ Can re-structure these, this just gives a nice starting library
 # Instruction manual (system documentation)
 
 # Best practices document  
+PEP-8 says 79 characters per line
+There is an auto PEP-8 checker
