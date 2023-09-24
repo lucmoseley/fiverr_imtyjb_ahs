@@ -9,16 +9,16 @@ Develop information system in Python:
 Generate "analysis and design" documentation  
 Write an instruction manual  
 Justify all best practices used in the system created  
-Code should be tested for boundary and extreme conditions (what does this mean?)
+Code should be tested for boundary and extreme conditions
 PEP-8 naming conventions should be used everywhere (there are PEP8 checkers & explainers!)  
 
-# Data layer instructions
+# Data layer instructions *complete*
 Write a python script to programmatically create a SQLite database and all its tables  
 - can be one script or multiple to populate tables
 
 As part of this step, you should inspect the database created by the python script using DB Browser for SQLite  
 
-## Data access object (part of data layer) instructins
+## Data access object (part of data layer) instructions *complete minus tests & validation*
 One DAO per data table (only need for 2, not all)  
 - one must be for a table without foreign keys  
 - one must be for a table with foreign keys (foreign keys has something to do with accessing other tables)  
@@ -30,11 +30,11 @@ All data entered must be validated
 - check if email is valid email, credit card, etc.
 - check if functions that do x really do x
 
-# Interface layer (GUI) instructions  
+# Interface layer (GUI) instructions *complete*
 One GUI for each of the two DAOs made  
 GUI type: tkinter  
 
-# Testing specific instructions
+# Testingc instructions
 Use and expand the validation methods given in validation.py  
 For all new methods added to validation.py, add tests in validation_test.py  
 Can re-structure these, this just gives a nice starting library  
